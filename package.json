@@ -1,19 +1,19 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
-  },
+  "name": "nativewind-nested-test",
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
-  "name": "nativewind-nested-test",
-  "packageManager": "npm@7.9.0",
+  "packageManager": "npm@9.6.4",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo run lint"
+  },
   "workspaces": [
     "apps/*",
     "packages/*"

@@ -1,13 +1,6 @@
 {
   "name": "docs",
   "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev --port 3001",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
   "dependencies": {
     "next": "latest",
     "react": "^18.2.0",
@@ -21,5 +14,12 @@
     "eslint-config-custom": "*",
     "tsconfig": "*",
     "typescript": "^4.5.3"
+  },
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev --port 3001",
+    "lint": "next lint",
+    "start": "next start"
   }
 }
