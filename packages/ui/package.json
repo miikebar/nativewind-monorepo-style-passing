@@ -18,6 +18,6 @@
   },
   "types": "./index.tsx",
   "dependencies": {
-    "nativewind": "^2.0.11"
+    "nativewind": "^3.0.0-next.34"
   }
 }
